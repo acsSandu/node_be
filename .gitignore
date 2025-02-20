@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment Files
+.env
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
