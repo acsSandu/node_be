@@ -4,9 +4,8 @@
   "description": "A small BE to cover personal needs.",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +18,7 @@
     "typescript": "^5.7.3"
   },
   "devDependencies": {
-    "prettier": "^3.5.1"
+    "prettier": "^3.5.1",
+    "nodemon": "^2.0.20"
   }
 }
